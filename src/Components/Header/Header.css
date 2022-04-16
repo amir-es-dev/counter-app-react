@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  background-color: #eee;
+}
+
+h1 {
+  margin-left: 45vw;
+  margin-right: 25vw;
+}
+
+.loginBtn,
+.logoutBtn {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.loginBtn {
+  margin-right: 2rem;
+  background-color: green;
+}
+.logoutBtn {
+  background-color: red;
+}
